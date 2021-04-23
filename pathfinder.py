@@ -77,7 +77,7 @@ class Spot:
 
 
 def __lt__(self, other):
-        return false 
+        return False 
 
 def h(p1, p2): 
     x1, y1 = p1
@@ -190,7 +190,7 @@ def main(win, width):
         draw(win, grid, ROWS, width)
         for event in pygame.event.get(): 
             if event.type == pygame.QUIT: 
-                run = false 
+                run = False 
 
             if started: 
                 continue
